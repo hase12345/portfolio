@@ -44,6 +44,13 @@ a:hover{
   text-decoration: underline;
 }
 
+.contents {
+  /* max-width: 100%; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
 @media screen and (max-width:992px){
   .hasegawaImg{
     width: 200px;
@@ -53,5 +60,14 @@ a:hover{
 
   .fab{
     font-size: 2rem;
+  }
+
+  .contents{
+    width: 200px;
+    height: 200px;
+  }
+
+  .explanation{
+    padding: 0 2%;
   }
 };

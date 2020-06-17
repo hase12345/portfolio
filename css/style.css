@@ -31,9 +31,9 @@ li {
   font-size: 0.5rem;
 }
 
-.explanation{
-  font-size:0.2rem;
-}
+/* .explanation{
+  font-size:0.rem;
+} */
 
 a {
   text-decoration:none;
@@ -51,7 +51,12 @@ a:hover{
   object-fit: cover;
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width:767px){
+
+  p{
+    font-size: 0.6rem;
+  }
+
   .hasegawaImg{
     width: 200px;
     height: 200px;
@@ -70,4 +75,7 @@ a:hover{
   .explanation{
     padding: 0 2%;
   }
+};
+
+@media screen and (max-width:767px){
 };

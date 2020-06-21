@@ -12,16 +12,24 @@
   <script src="https://kit.fontawesome.com/4feeb0652d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="sticky-top bg-white">
-    <div class="container">
-      <ul class="list-inline float-right m-0">
-        <li class="list-inline-item"><a href="#profile">Profile</a></li>
-        <li class="list-inline-item"><a href="#skills">Skills</a></li>
-        <li class="list-inline-item"><a href="#works">Works</a></li>
-        <li class="list-inline-item"><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-    <div class="clearfix"></div>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <a href="#" class="navbar-brand">Portfolio</a>
+      <button class="navbar-toggler collapsed" type="button"
+        data-toggle="collapse"
+        data-target="#navmenu1"
+        aria-controls="navmenu1"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navmenu1">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#profile">Profile</a>
+          <a class="nav-item nav-link" href="#skills">Skills</a>
+          <a class="nav-item nav-link" href="#works">Works</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
   </nav>
   <header>
     <div class="container">
@@ -105,6 +113,21 @@
             <p class="mt-1 explanation">psdから模写コーディングしました。<br>※レスポンシブ未対応</p>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-4 text-center p-2">
+            <a href="https://hase12345.github.io/school/"><img src="img/school.png" class="img-fluid contents" alt="EYP"></a>
+            <p class="mt-1 font-weight-bold">ちぐさ幼稚園 模写コーディング</p>
+            <p class="mt-1 explanation">psdから模写コーディングしました。</p>
+          </div>
+          <div class="col-md-4 text-center p-2">
+            <a href="https://hase12345.github.io/eyp/"><img src="img/eyp.png" class="img-fluid contents" alt="EYP"></a>
+            <p class="mt-1 font-weight-bold">EYP 模写コーディング</p>
+            <p class="mt-1 explanation">psdから模写コーディングしました。<br>コンテンツの重なりと文字の位置を工夫しております。<br>※レスポンシブ未対応</p>
+          </div>
+          <div class="col-md-4 text-center p-2">
+
+          </div>
+        </div>
       </div>
     </article>
     <article>
@@ -116,7 +139,7 @@
         </div>
         <div class="row">
           <div class="col text-center">
-            <i class="far fa-envelope fa-2x text-center"></i>
+            <i class="far fa-envelope text-center"></i>
             <p class="mt-1 explanation">お問い合わせはこちらからお願い致します。</p>
             <p class="explanation"><a href="mailto:y.h.baskeeeet@gmail.com">y.h.baskeeeet@gmail.com</a></p>
           </div>
@@ -124,15 +147,17 @@
       </div>
     </article>
   </main>
-  <footer class="bg-primary mt-2">
+  <footer class="bg-dark mt-5">
     <div class="container">
-      <div class="row p-2">
+      <div class="row p-4">
         <div class="col">
-          <p class="text-center text-white explanation">© Copyright 2020 Hasegawa All Rights Reserved.</p>
+          <p class="text-center text-white explanation py-5">© Copyright 2020 Hasegawa All Rights Reserved.</p>
         </div>
       </div>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 </body>
 </html>

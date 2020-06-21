@@ -64,15 +64,26 @@ a:hover{
 }
 
 .explanation{
+  font-size: 3vw;
+}
+
+.copyright{
   font-size: 1vw;
 }
 
 @media screen and (max-width:767px){
+  naV, .navbar-brand{
+    font-size: 4vw;
+  }
 
   .hasegawaImg{
     width: 200px;
     height: 200px;
     margin-bottom: 5%;
+  }
+
+  .profile p{
+    font-size: 3vw;
   }
 
   .contents{

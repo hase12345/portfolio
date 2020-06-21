@@ -63,12 +63,8 @@ a:hover{
   font-size: 13vw;
 }
 
-.explanation{
-  font-size: 3vw;
-}
-
 .copyright{
-  font-size: 1vw;
+  font-size: 2vw;
 }
 
 @media screen and (max-width:767px){

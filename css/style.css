@@ -16,7 +16,7 @@ nav a{
 }
 
 p {
-  font-size: 3vw;
+  font-size: 2vw;
   margin-bottom: 0;
 }
 
@@ -78,8 +78,12 @@ a:hover{
     margin-bottom: 5%;
   }
 
-  .profile p{
+  p{
     font-size: 3vw;
+  }
+
+  h5{
+    font-size: 9vw;
   }
 
   .contents{

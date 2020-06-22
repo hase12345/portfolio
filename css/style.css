@@ -67,6 +67,10 @@ a:hover{
   font-size: 2vw;
 }
 
+.works .row:nth-child(3){
+  margin-top: 10%;
+}
+
 @media screen and (max-width:767px){
   naV, .navbar-brand{
     font-size: 4vw;
@@ -89,5 +93,13 @@ a:hover{
   .contents{
     width: 200px;
     height: 200px;
+  }
+
+  .works .row:nth-child(3){
+    margin: 0;
+  }
+
+  .works .col-md-4{
+    margin: 5% 0;
   }
 };
